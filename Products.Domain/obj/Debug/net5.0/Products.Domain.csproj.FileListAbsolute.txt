@@ -1,0 +1,15 @@
+C:\Workspace\products\Products.Domain\bin\Debug\net5.0\Products.Domain.deps.json
+C:\Workspace\products\Products.Domain\bin\Debug\net5.0\Products.Domain.dll
+C:\Workspace\products\Products.Domain\bin\Debug\net5.0\Products.Domain.pdb
+C:\Workspace\products\Products.Domain\obj\Debug\net5.0\Products.Domain.csproj.AssemblyReference.cache
+C:\Workspace\products\Products.Domain\obj\Debug\net5.0\Products.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\products\Products.Domain\obj\Debug\net5.0\Products.Domain.AssemblyInfoInputs.cache
+C:\Workspace\products\Products.Domain\obj\Debug\net5.0\Products.Domain.AssemblyInfo.cs
+C:\Workspace\products\Products.Domain\obj\Debug\net5.0\Products.Domain.csproj.CoreCompileInputs.cache
+C:\Workspace\products\Products.Domain\obj\Debug\net5.0\Products.Domain.dll
+C:\Workspace\products\Products.Domain\obj\Debug\net5.0\refint\Products.Domain.dll
+C:\Workspace\products\Products.Domain\obj\Debug\net5.0\Products.Domain.pdb
+C:\Workspace\products\Products.Domain\obj\Debug\net5.0\ref\Products.Domain.dll
+C:\Workspace\products\Products.Domain\bin\Debug\net5.0\Products.Domain.runtimeconfig.json
+C:\Workspace\products\Products.Domain\bin\Debug\net5.0\Products.Domain.runtimeconfig.dev.json
+C:\Workspace\products\Products.Domain\obj\Debug\net5.0\Products.Domain.genruntimeconfig.cache
