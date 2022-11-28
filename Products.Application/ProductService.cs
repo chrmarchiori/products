@@ -34,6 +34,9 @@ namespace Products.Application
         {
             try
             {
+                if (model.Data_Fabricacao >= model.Data_Validade)
+                    throw new Exception("Não é possível realizar essa operação pois a data de fabricação é maior ou igual a data de validade");
+
                 var product = _mapper.Map<Product>(model);
                 product.Ativo = true;
                 _geralPersist.Add(product);
@@ -56,6 +59,9 @@ namespace Products.Application
         {
             try
             {
+                if (model.Data_Fabricacao >= model.Data_Validade)
+                    throw new Exception("Não é possível realizar essa operação pois a data de fabricação é maior ou igual a data de validade");
+
                 var product = await _productPersist.GetProductByIdAsync(productId);
                 if (product == null) return null;
 

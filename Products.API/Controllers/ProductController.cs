@@ -61,10 +61,7 @@ namespace Products.API.Controllers
         public async Task<IActionResult> Post(ProductDto model)
         {
             try
-            {
-                if (model.Data_Fabricacao >= model.Data_Validade) 
-                    return BadRequest("Não é possível realizar essa operação pois a data de fabricação é maior ou igual a data de validade");
-
+            { 
                 var product = await _productService.AddProduct(model);
                 if (product == null) return BadRequest("Erro ao tentar adicionar produto informado");
 
@@ -84,9 +81,6 @@ namespace Products.API.Controllers
         {
             try
             {
-                if (model.Data_Fabricacao >= model.Data_Validade)
-                    return BadRequest("Não é possível realizar essa operação pois a data de fabricação é maior ou igual a data de validade");
-
                 var product = await _productService.UpdateProduct(id, model);
                 if (product == null) return NoContent();
 
